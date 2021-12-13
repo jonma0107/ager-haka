@@ -3,14 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",    
-    "build": "ng build --prod",
-    "watch": "ng build --watch --configuration development",
+    "build": "ng build --prod",    
     "test": "ng test",
-     "lint": "ng lint",
-     "e2e": "ng e2e",
-     "postinstall": "ng build --aot",
-     "start": "node server.js",  
-    "heroku-postbuild": "ng build --prod"
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "postinstall": "ng build --aot",
+    "start": "node server.js"
   },
   "private": true,
   "dependencies": {
