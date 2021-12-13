@@ -1,0 +1,10 @@
+.contendor{
+    margin: 1%;
+}
+.titulo{
+    margin: 1%;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24pt;
+    color: rgb(6, 60, 43);
+}

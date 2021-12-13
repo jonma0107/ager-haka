@@ -1,0 +1,58 @@
+.title{
+    margin: 1% 0 0 2%;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: rgb(168, 128, 47);
+}
+.table{
+    margin-left: 3%;
+    width: 90%;
+}
+.titleTable{
+    background-color: rgb(6, 64, 43);
+    font-family: 'Raleway';
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+}
+.btnTable{
+    margin-left: 3%;
+    width: 20%;
+    height: 40px;
+    border: 0;
+    border-radius: 35px;
+    background-color: rgb(6, 64, 43);
+    color: white;
+}
+#Compra{
+    margin-top: 2%;
+}
+.btnEnlace{
+    background-color: rgb(6, 64, 43);
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 12pt;
+    border: 0;
+    border-radius: 35px;
+    height: 40px;
+    width: 40%;
+    text-align: center;
+    padding-top: 1.2%;
+    text-decoration: none;
+}
+.btnEnlace:hover{
+    background-color: rgb(168, 128, 47);
+}
+.btnEnlace:active{
+    background-color: rgb(168, 128, 47);
+}
+.inputCantidad{
+    margin-left: 45%;
+    width: 10%;
+    border: 0;
+    background-color: rgba(6, 64, 43, 20%);
+}
+.inputCantidad:focus{
+    outline: unset;
+}

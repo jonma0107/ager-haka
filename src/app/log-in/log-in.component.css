@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway';
+}
+#title{
+    margin-bottom: 5%;
+    width: 100%;
+    text-align: center;
+    color: rgb(6, 64, 43)
+}
+#formContainer{
+    width: 80%;
+    color: rgb(6, 64, 43);
+}
+.linea{
+    margin-bottom: 5%;
+}
+#formContainer h1{
+    font-size: 18px;
+}
+.inputClass1{
+    height: 40px;
+    border: 2px solid rgb(6, 64, 43) ;
+    border-radius: 35px;
+}
+.inputClass1:hover{
+    border: 2px solid rgb(219, 168, 62) ;
+}
+.inputClass1:focus{
+    outline: unset;
+    border: 2px solid rgb(219, 168, 62)
+}
+#btnform{
+    width: 60%;
+    height: 40px;
+    border: 0;
+    border-radius: 35px;
+    color: white;
+    background-color: rgb(6, 64, 43);
+}
+#containerBtnForm{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.lin1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}

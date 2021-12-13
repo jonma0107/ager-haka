@@ -1,0 +1,62 @@
+<app-nav-cliente></app-nav-cliente>
+<div class="row">
+    <div class="row title">
+        <h3>Finca <strong>La Margarita</strong></h3>
+    </div>
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="row">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="titleTable">Producto</th>
+                        <th scope="col" class="titleTable">Precio x Libra</th>
+                        <th scope="col" class="titleTable">Cantidad</th>
+                        <th scope="col" class="titleTable">Total</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td><input type="number" value="1" class="inputCantidad"></td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <button class="btnTable" (click)="onOpenCompra()">Finalizar Compra</button>
+            </div>
+            <div class="row">
+                <div class="row title" id="Compra">
+                    <h3>Compra otros productos</h3>
+                </div>
+                <div class="row">
+                    <app-frutas-carrucel></app-frutas-carrucel>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="row">
+                <img src="../../assets/imagenes/Margarita.jpg" alt="">
+            </div>
+            <div class="row">
+                <p>La finca la margarita es un hermoso lugar en el que se plantan manzanas, naranjas, mangos. Estamos ubicados en el km 7 vía chipaya en Jamundí, Valle del Vauca.</p>
+            </div>
+            <div class="row">
+                <a target="_blank" href="https://www.google.com/maps/place/Colombia/@4.6420843,-78.8351989,6z/data=!3m1!4b1!4m5!3m4!1s0x8e15a43aae1594a3:0x9a0d9a04eff2a340!8m2!3d4.570868!4d-74.297333?hl=es" class="btnEnlace">Ubicanos en maps</a>
+            </div>
+
+        </div>
+    </div>
+</div>

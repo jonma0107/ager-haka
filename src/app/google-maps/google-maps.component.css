@@ -1,0 +1,49 @@
+.title{
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: rgb(6, 64, 43);
+    margin-top: 3%;
+}
+.maps{
+    background-color: gray;
+    height: 300px;
+    width: 95%;
+}
+.inputForm{
+    height: 40px;
+    width: 100%;
+    padding-left: 5%;
+    border: 2px solid rgb(168, 128, 47) ;
+    border-radius: 35px;
+}
+.inputForm:hover{
+    border: 2px solid rgb(6, 64, 43);
+}
+.inputForm:focus{
+    outline: unset;
+    border: 2px solid rgb(6, 64, 43);
+}
+.datos{
+    margin: 3% 0 3% 0;
+}
+.btnForm{
+    margin-left: 25%;
+    width: 50%;
+    border: 0;
+    height: 40px;
+    border-radius: 35px;
+    background-color: rgb(6, 64, 43);
+    color: white;
+    font-family: 'Raleway';
+    font-size: 12pt;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.labelForm{
+    color: rgb(168, 128, 47);
+    font-family: 'Raleway';
+    font-weight: 700;
+}

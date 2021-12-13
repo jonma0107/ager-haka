@@ -1,0 +1,20 @@
+.title{
+    margin: 1%;
+    font-family: 'Raleway';
+    font-size: 24pt;
+    color: rgb(6, 64, 43);
+}
+#fruta{
+    color: rgb(168, 128, 47)
+}
+.table{
+    margin-left: 3%;
+    width:80%
+}
+.titleTable{
+    background-color: rgb(6, 64, 43);
+    font-family: 'Raleway';
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+}
